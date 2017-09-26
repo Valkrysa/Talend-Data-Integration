@@ -2,7 +2,7 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="tContextDump_File" prompt="tContextDump_File?" promptNeeded="false" type="id_Directory" value=""/>
-    <contextParameter comment="" name="courseData" prompt="courseData?" promptNeeded="false" repositoryContextId="_dlCPUM35EeWlMrnyF_9V8Q" type="id_Directory" value="/Users/alicerobinson/Google Drive/DDI Work/Talend Integration Class/CourseData"/>
+    <contextParameter comment="" name="courseData" prompt="courseData?" promptNeeded="false" repositoryContextId="_dlCPUM35EeWlMrnyF_9V8Q" type="id_Directory" value="/Users/alicerobinson/Talend/TCTC_Course_Data/"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>

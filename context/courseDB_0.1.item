@@ -2,8 +2,8 @@
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_ivTEAKLVEeezYfhaBQOMnQ" confirmationNeeded="false" name="Default">
   <contextParameter xmi:id="_ivTEAaLVEeezYfhaBQOMnQ" comment="" name="mysql_connection_Database" prompt="mysql_connection_Database?" promptNeeded="false" type="id_String" value="world"/>
   <contextParameter xmi:id="_ivTEAqLVEeezYfhaBQOMnQ" comment="" name="mysql_connection_Login" prompt="mysql_connection_Login?" promptNeeded="false" type="id_String" value="root"/>
-  <contextParameter xmi:id="_ivTEA6LVEeezYfhaBQOMnQ" comment="" name="mysql_connection_Password" prompt="mysql_connection_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
-  <contextParameter xmi:id="_ivTEBKLVEeezYfhaBQOMnQ" comment="" name="mysql_connection_Server" prompt="mysql_connection_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_ivTEA6LVEeezYfhaBQOMnQ" comment="" name="mysql_connection_Password" prompt="mysql_connection_Password?" promptNeeded="false" type="id_Password" value="1QY6ZyNqCD4BAhKeqSkILQ=="/>
+  <contextParameter xmi:id="_ivTEBKLVEeezYfhaBQOMnQ" comment="" name="mysql_connection_Server" prompt="mysql_connection_Server?" promptNeeded="false" type="id_String" value="127.0.0.1"/>
   <contextParameter xmi:id="_ivTEBaLVEeezYfhaBQOMnQ" comment="" name="mysql_connection_Port" prompt="mysql_connection_Port?" promptNeeded="false" type="id_String" value="3306"/>
   <contextParameter xmi:id="_ivTEBqLVEeezYfhaBQOMnQ" comment="" name="mysql_connection_AdditionalParams" prompt="mysql_connection_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
   <contextParameter xmi:id="_ivTEB6LVEeezYfhaBQOMnQ" comment="" name="mysql_connection_TableName" prompt="mysql_connection_TableName?" promptNeeded="false" type="id_String" value="city"/>

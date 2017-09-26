@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:business="business" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <business:BusinessProcess xmi:id="_I8DwoKLvEeezYfhaBQOMnQ">
+    <businessItems xmi:type="business:DatabaseBusinessItem" xmi:id="_jy53QKLvEeezYfhaBQOMnQ" name="Elasticache"/>
+  </business:BusinessProcess>
+  <notation:Diagram xmi:id="_I8WEgKLvEeezYfhaBQOMnQ" type="Business" element="_I8DwoKLvEeezYfhaBQOMnQ" name="15064533637748072115195907741708.business_diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_jzAk8KLvEeezYfhaBQOMnQ" type="1004" element="_jy53QKLvEeezYfhaBQOMnQ">
+      <children xmi:type="notation:Node" xmi:id="_jzBzEKLvEeezYfhaBQOMnQ" type="4004"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_jzAk8aLvEeezYfhaBQOMnQ" fontName=".SF NS Text"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_jzAk8qLvEeezYfhaBQOMnQ"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_jzAk86LvEeezYfhaBQOMnQ" fillColor="13420189"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_jzAk9KLvEeezYfhaBQOMnQ" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jzAk9aLvEeezYfhaBQOMnQ" x="163" y="153" width="63" height="64"/>
+    </children>
+    <styles xmi:type="notation:PageStyle" xmi:id="_I8WEgaLvEeezYfhaBQOMnQ"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_I8WEgqLvEeezYfhaBQOMnQ"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_I8WEg6LvEeezYfhaBQOMnQ"/>
+  </notation:Diagram>
+</xmi:XMI>

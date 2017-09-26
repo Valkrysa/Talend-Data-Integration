@@ -2,7 +2,7 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="tContextDump_File" prompt="tContextDump_File?" promptNeeded="false" type="id_File" value="/Users/talend/Desktop/TCTC_Course_Data/Input/tReplace_Sales.csv"/>
-    <contextParameter comment="" name="courseData" prompt="courseData?" promptNeeded="false" repositoryContextId="_dlCPUM35EeWlMrnyF_9V8Q" type="id_Directory" value="/Users/alicerobinson/Google Drive/DDI Work/Talend Integration Class/CourseData"/>
+    <contextParameter comment="" name="courseData" prompt="courseData?" promptNeeded="false" repositoryContextId="_dlCPUM35EeWlMrnyF_9V8Q" type="id_Directory" value="/Users/alicerobinson/Talend/TCTC_Course_Data/"/>
     <contextParameter comment="" name="tContextDump_Encoding" prompt="tContextDump_Encoding?" promptNeeded="false" repositoryContextId="_km4qIMyIEeWEH8mezfHTBA" type="id_String" value="US-ASCII"/>
     <contextParameter comment="" name="tContextDump_FieldSeparator" prompt="tContextDump_FieldSeparator?" promptNeeded="false" repositoryContextId="_km4qIMyIEeWEH8mezfHTBA" type="id_String" value="&quot;\t&quot;"/>
     <contextParameter comment="" name="tContextDump_fileConnection" prompt="tContextDump_fileConnection?" promptNeeded="false" repositoryContextId="_km4qIMyIEeWEH8mezfHTBA" type="id_File" value="/Users/talend/Desktop/TCTC_Course_Data/Input/tContextLoad_dev_conn.csv"/>
