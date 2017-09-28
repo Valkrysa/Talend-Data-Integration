@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_qcjA0K3aEeWwhtc-Km4LpQ" name="mysql_connection" id="_aCOjcK3aEeWwhtc-Km4LpQ" label="mysql_connection" dataPackage="_G2rsgM1TEeWlMrnyF_9V8Q" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/world?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="NZNgK6DuncI=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="world" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+  <TalendMetadata:DatabaseConnection xmi:id="_qcjA0K3aEeWwhtc-Km4LpQ" name="mysql_connection" id="_aCOjcK3aEeWwhtc-Km4LpQ" label="mysql_connection" dataPackage="_G2rsgM1TEeWlMrnyF_9V8Q" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/world?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="1QY6ZyNqCD4BAhKeqSkILQ==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="world" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
     <taggedValue xmi:id="_qcjA0a3aEeWwhtc-Km4LpQ" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_qcsKwK3aEeWwhtc-Km4LpQ" tag="package filter" value=""/>
     <taggedValue xmi:id="_qcsx0K3aEeWwhtc-Km4LpQ" tag="Status" value=""/>
@@ -10,13 +10,14 @@
     <taggedValue xmi:id="_qcsx1K3aEeWwhtc-Km4LpQ" tag="Author" value=""/>
     <taggedValue xmi:id="_qcsx1a3aEeWwhtc-Km4LpQ" tag="otherParameter"/>
     <taggedValue xmi:id="_qcxDQK3aEeWwhtc-Km4LpQ" tag="DB ProductName" value="MySQL"/>
-    <taggedValue xmi:id="_qcxDQa3aEeWwhtc-Km4LpQ" tag="DB ProductVersion" value="5.6.28"/>
+    <taggedValue xmi:id="_qcxDQa3aEeWwhtc-Km4LpQ" tag="DB ProductVersion" value="5.7.19"/>
     <taggedValue xmi:id="_qcxDQq3aEeWwhtc-Km4LpQ" tag="DB IdentifierQuoteString" value="`"/>
     <queries xmi:id="_Zkx9AK3bEeWwhtc-Km4LpQ">
       <query xmi:id="_Zkx9Aa3bEeWwhtc-Km4LpQ" id="_Zkx9Aq3bEeWwhtc-Km4LpQ" label="city_select" value="select City.ID,City.Name,City.CountryCode,City.District,City.Population &#xA;from City"/>
       <query xmi:id="_NE82ANN8EeWOreqXqIGeVA" id="_SdiEQNN8EeWOreqXqIGeVA" label="xvz" value="select City.ID,City.Population,City.CountryCode,City.District,City.Name &#xA;from City"/>
     </queries>
     <parameters xmi:id="_qcjA0q3aEeWwhtc-Km4LpQ" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_SKFlcKL6EeezYfhaBQOMnQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_G2rsgM1TEeWlMrnyF_9V8Q" name="world" dataManager="_qcjA0K3aEeWwhtc-Km4LpQ">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_G2rsgc1TEeWlMrnyF_9V8Q" name="Country" id="__MHAIK3aEeWwhtc-Km4LpQ" label="Country" tableType="TABLE">

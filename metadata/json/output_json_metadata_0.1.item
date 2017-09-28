@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendJSON:JSONFileConnection xmi:id="_aGDu0K2_EeW6J_D4CCGq7g" name="output_json_metadata" dataPackage="_aGDu2K2_EeW6J_D4CCGq7g" JSONFilePath="/Users/talend/Documents/Talend/Section02/json_output.json" Encoding="UTF-8" inputModel="false" outputFilePath="">
-    <root xmi:id="_aGDu0a2_EeW6J_D4CCGq7g" JSONPath="/root" RelatedColumn="" Attribute="main" Order="23" Type="id_String"/>
-    <loop xmi:id="_aGDu0q2_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes" RelatedColumn="" Attribute="main" Order="24" Type="id_String"/>
-    <loop xmi:id="_aGDu062_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes/city" RelatedColumn="" Attribute="branch" Order="25" Type="id_String"/>
-    <loop xmi:id="_aGDu1K2_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes/loc" RelatedColumn="loc" Attribute="branch" Order="26" Type="id_Double"/>
-    <loop xmi:id="_aGDu1a2_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes/pop" RelatedColumn="pop" Attribute="branch" Order="27" Type="id_Integer"/>
-    <loop xmi:id="_aGDu1q2_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes/state" RelatedColumn="state" Attribute="branch" Order="28" Type="id_String"/>
-    <loop xmi:id="_aGDu162_EeW6J_D4CCGq7g" JSONPath="/root/zipcodes/_id" RelatedColumn="_id" Attribute="branch" Order="29" Type="id_String"/>
+  <TalendJSON:JSONFileConnection xmi:id="_aGDu0K2_EeW6J_D4CCGq7g" name="output_json_metadata" dataPackage="_aGDu2K2_EeW6J_D4CCGq7g" JSONFilePath="/Users/alicerobinson/Talend/TCTC_Course_Data/Input/Metadata/tFileInputJSON.json" Encoding="UTF-8" inputModel="false" outputFilePath="">
+    <root xmi:id="_qK_-cKRzEeezYfhaBQOMnQ" JSONPath="/rootTag" RelatedColumn="" Attribute="main" Order="39"/>
+    <root xmi:id="_qK_-caRzEeezYfhaBQOMnQ" JSONPath="/rootTag/zipcodes" RelatedColumn="" Attribute="main" Order="40"/>
+    <root xmi:id="_qK_-cqRzEeezYfhaBQOMnQ" JSONPath="/rootTag/zipcodes/loc" RelatedColumn="loc" Attribute="branch" Order="42" Type="id_Double"/>
+    <root xmi:id="_qK_-c6RzEeezYfhaBQOMnQ" JSONPath="/rootTag/zipcodes/pop" RelatedColumn="pop" Attribute="branch" Order="43" Type="id_Integer"/>
+    <root xmi:id="_qK_-dKRzEeezYfhaBQOMnQ" JSONPath="/rootTag/zipcodes/state" RelatedColumn="state" Attribute="branch" Order="44" Type="id_String"/>
+    <root xmi:id="_qK_-daRzEeezYfhaBQOMnQ" JSONPath="/rootTag/zipcodes/_id" RelatedColumn="_id" Attribute="branch" Order="45" Type="id_String"/>
+    <loop xmi:id="_qK_-dqRzEeezYfhaBQOMnQ" JSONPath="/rootTag/zipcodes/city" RelatedColumn="city" Attribute="main" Order="41" Type="id_String"/>
   </TalendJSON:JSONFileConnection>
   <orgomg.cwm.resource.record:RecordFile xmi:id="_aGDu2K2_EeW6J_D4CCGq7g" name="default" dataManager="_aGDu0K2_EeW6J_D4CCGq7g">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_aGDu2a2_EeW6J_D4CCGq7g" id="_rdg_UK2-EeW6J_D4CCGq7g" label="metadata">

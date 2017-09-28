@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendJSON:JSONFileConnection xmi:id="_bSfRELJyEeWbeZFfHs8X7A" name="Meta_sec03_006_tFileInputJSON" dataPackage="_bSfRF7JyEeWbeZFfHs8X7A _Ek7ekLJzEeWbeZFfHs8X7A" JSONFilePath="/Users/talend/Desktop/TCTC_Course_Data/Input/Metadata/tFileInputJSON.json" Encoding="UTF-8" readbyMode="JSONPATH">
+  <TalendJSON:JSONFileConnection xmi:id="_bSfRELJyEeWbeZFfHs8X7A" name="Meta_sec03_006_tFileInputJSON" dataPackage="_bSfRF7JyEeWbeZFfHs8X7A _Ek7ekLJzEeWbeZFfHs8X7A" JSONFilePath="/Users/alicerobinson/Talend/TCTC_Course_Data/Input/Metadata/tFileInputJSON.json" Encoding="UTF-8" readbyMode="JSONPATH">
     <schema xmi:id="_bSfREbJyEeWbeZFfHs8X7A" LimitBoucle="100" AbsoluteXPathQuery="$.zipcodes[*]">
       <schemaTargets xmi:id="_bSfRErJyEeWbeZFfHs8X7A" RelativeXPathQuery="city" TagName="city"/>
       <schemaTargets xmi:id="_bSfRE7JyEeWbeZFfHs8X7A" RelativeXPathQuery="loc[*]" TagName="loc"/>
