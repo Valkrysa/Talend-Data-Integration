@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
-  <context confirmationNeeded="false" name="Default"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="courseData" prompt="courseData?" promptNeeded="false" repositoryContextId="_dlCPUM35EeWlMrnyF_9V8Q" type="id_Directory" value="/Users/alicerobinson/Talend/TCTC_Course_Data/"/>
+  </context>
+  <context confirmationNeeded="false" name="DEV">
+    <contextParameter comment="" name="courseData" prompt="courseData?" promptNeeded="false" repositoryContextId="_dlCPUM35EeWlMrnyF_9V8Q" type="id_Directory" value="/Users/alicerobinson/Talend/TCTC_Course_Data/"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
@@ -56,7 +61,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/Users/talend/Downloads/TOS_DI-20151214_1327-V6.1.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/Applications/TOS_DI-20170623_1246-V6.4.1/workspace/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -95,9 +100,6 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
-    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
-    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
     <routinesParameter id="_N6JZgKt4EeWlvpOPHApFDA" name="DataOperation"/>
     <routinesParameter id="_N6jpMKt4EeWlvpOPHApFDA" name="Mathematical"/>
     <routinesParameter id="_N6msgKt4EeWlvpOPHApFDA" name="Numeric"/>
@@ -106,6 +108,7 @@
     <routinesParameter id="_N6vPYKt4EeWlvpOPHApFDA" name="TalendDataGenerator"/>
     <routinesParameter id="_N6xroKt4EeWlvpOPHApFDA" name="TalendDate"/>
     <routinesParameter id="_N60H4Kt4EeWlvpOPHApFDA" name="TalendString"/>
+    <routinesParameter id="_DeiW0KLVEeezYfhaBQOMnQ" name="TalendStringUtil"/>
   </parameters>
   <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
@@ -125,7 +128,7 @@
   </node>
   <node componentName="tExternalSortRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tExternalSortRow_1" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/talend/Downloads/TOS_DI-20151214_1327-V6.1.1/workspace/sorted.txt&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.courseData + &quot;sorted.txt&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
     <elementParameter field="TABLE" name="CRITERIA">
       <elementValue elementRef="COLNAME" value="Fname"/>
