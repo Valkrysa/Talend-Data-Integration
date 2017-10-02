@@ -1755,6 +1755,7 @@
       <relatedItems xmi:id="_jJDBbKLVEeezYfhaBQOMnQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_jJDBbaLVEeezYfhaBQOMnQ" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_jJDBbqLVEeezYfhaBQOMnQ" id="_UU_RUMx6EeWEH8mezfHTBA - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_OibFYKeTEeezYfhaBQOMnQ" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_jJDBb6LVEeezYfhaBQOMnQ">
       <baseItem xmi:id="_jJDBcKLVEeezYfhaBQOMnQ" id="_mH54YMvBEeWEH8mezfHTBA" version="0.1" type="job"/>
